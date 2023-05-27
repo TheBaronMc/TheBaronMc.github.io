@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="main">
+    <div class="navbar">
+      <a class="navbar-link active" href="#home">Home</a>
+      <a class="navbar-link inactive" href="#education">Education</a>
+      <a class="navbar-link inactive" href="#work">Work</a>
+      <a class="navbar-link inactive" href="#skills">Skills</a>
+      <a class="navbar-link inactive" href="#links">Links</a>
+    </div>
+    <div class="slider">
+      <div class="slides">
+        <div id="home">
+            <div class="home-section">
+              <img src="img/photo.png" alt="My Photo">
+              <h1 class="main-title">Charly Ginevra</h1>
+              <p>Welcome to my online resume</p>
+            </div>
+        </div>
+        <div id="education">
+          <div class="education-section">
+            <h1 class="section-title">Education</h1>
+            <div class="section-content">
+              <div class="item-list">
+                <label class="item-title">
+                  <div class="before-title"></div>
+                  <p>Engineer Degree in computer science</p>
+                </label>
+                <div class="item-description description">
+                  <div class="img"><img src="img/schools/n7.png"></div>
+                  <div class="text">
+                    <div class="line">
+                      <p>Sept 2020 - Sept 2023</p>
+                      <p>Toulouse, France</p>
+                    </div>
+                    <p class="description-title">Courses:</p>
+                    <ul>
+                      <li>Application conception and development
+                        <ul>
+                          <li>OOP / FP</li>
+                          <li>Concurrency programming</li>
+                          <li>Versioning</li>
+                          <li>Database</li>
+                        </ul>
+                      </li>
+                      <li>Network
+                        <ul>
+                          <li>OSI Layers</li>
+                          <li>Mobile network</li>
+                        </ul>
+                      </li>
+                      <li>Project management</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="item-list">
+                <label class="item-title">
+                  <div class="before-title"></div>
+                  <p>Two year degree in computer networks</p>
+                </label>
+                <div class="item-description description">
+                  <div class="img"><img src="img/schools/uga.png"></div>
+                  <div class="text">
+                    <div class="line">
+                      <p>Sept 2018 - Jul 2020</p>
+                      <p>Grenoble, France</p>
+                    </div>
+                    <p class="description-title">Courses:</p>
+                    <ul>
+                      <li>Setup and maintain a computer network
+                        <ul>
+                          <li>Active directory, HTTP, DNS, DHCP</li>
+                          <li>Routing, OSPF, RIP, BGP</li>
+                          <li>VLAN, Spanning Tree</li>
+                        </ul>
+                      </li>
+                      <li>
+                        Virtualization
+                        <ul>
+                          <li>Docker / Virtual Box</li>
+                        </ul>
+                      </li>
+                      <li>Signal processing</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="work">
+          <div class="work-section">
+            <h1 class="section-title">Work Experience</h1>
+            <div class="section-content">
+              <div class="item-list">
+                <label class="item-title">
+                  <div class="before-title"></div>
+                  <p>Software Developer Apprentice</p>
+                </label>
+                <div class="item-description description">
+                  <div class="img"><img src="img/companies/tas.png"></div>
+                  <div class="text">
+                    <div class="line">
+                      <p>Sept 2020 - Sept 2023</p>
+                      <p>Toulouse, France</p>
+                    </div>
+                    <p class="description-title">Task:</p>
+                    <p class="comment">Design, development and maintenance of applications are the main tasks within the System Simulation tools team.</p>
+                    <ul>
+                      <li>Creation of software for satellite data visualization</li>
+                      <li>Maintenance / Improvement in C++/Qt</li>
+                      <li>Translation of a simulator in matlab into python</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="item-list">
+                <label class="item-title">
+                  <div class="before-title"></div>
+                  <p>Intership</p>
+                </label>
+                <div class="item-description description">
+                  <div class="img"><img src="img/companies/iexec.png"></div>
+                  <div class="text">
+                    <div class="line">
+                      <p>Apr 2020 - Jun 2020</p>
+                      <p>Lyon, France</p>
+                    </div>
+                    <p class="description-title">Taks:</p>
+                    <p class="comment">As a pioneer in the field of decentralized cloud, iExec develops communication protocols based on Web3 in order to democratize the decentralized economy.</p>
+                    <ul>
+                      <li>Creation of a demonstrator</li>
+                      <li>Setup a network of Raspberry Pi</li>
+                      <li>Deployment of docker containers</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="skills">
+          <div class="skills-section">
+            <h1 class="section-title">Skills</h1>
+            <div class="section-content">
+              <div style="display: flex;">
+                <div class="languages-block">
+                  <p>Languages</p>
+                  <div class="logos">
+                    <a href="https://www.python.org/"><img src="img/logo/pyhton.png" alt="Python"></a>
+                    <a href="https://en.cppreference.com/w/"><img src="img/logo/cpp.png" alt="C++"></a>
+                    <a href="https://www.rust-lang.org/"><img src="img/logo/rust.png" alt="Rust"></a>
+                    <a href="https://dev.java/"><img src="img/logo/java.png" alt="Java"></a>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="img/logo/javascript.png" alt="Javascript"></a>
+                    <a href="https://www.typescriptlang.org/"><img src="img/logo/typescript.svg" alt="Typescript"></a>
+                  </div>
+                </div>
+                <div class="vertical-line"></div>
+                <div class="librairies-block">
+                  <p>Librairies</p>
+                  <div class="logos">
+                    <a href="https://numpy.org/"><img src="img/logo/numpy.png" alt="NumPy"></a>
+                    <a href="https://pandas.pydata.org/"><img src="img/logo/pandas.png" alt="Pandas"></a>
+                    <a href="https://matplotlib.org/"><img src="img/logo/matplotlib.png" alt="Matplotlib"></a>
+                    <a href="https://bokeh.org/"><img src="img/logo/bokeh.png" alt="Bokeh"></a>
+                    <a href="https://docs.nestjs.com/"><img src="img/logo/nestjs.svg" alt="NestJs"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="horizontal-line"></div>
+              <div class="other-block">
+                <div class="logos">
+                  <a href="https://www.atlassian.com/software/jira"><img src="img/logo/jira.png" alt="Jira"></a>
+                  <a href="https://www.docker.com/"><img src="img/logo/docker.webp" alt="Docker"></a>
+                  <a href="https://doc.traefik.io/traefik/"><img src="img/logo/traefik.png" alt="Traefik"></a>
+                  <a href="https://github.com/"><img src="img/logo/github.png" alt="Github"></a>
+                  <a href="https://ubuntu.com/"><img src="img/logo/ubuntu.png" alt="Ubuntu"></a>
+                </div>
+                <p>Other</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="links">
+          <div class="contact-section">
+            <h1 class="section-title">Links</h1>
+            <div class="section-content links">
+              <a class="link" href="https://github.com/TheBaronMc">
+                <img class="link-img" src="img/logo/github.png" alt="My Github Profile">
+                <p class="link-url">Github</p>
+              </a>
+              <a class="link" href="https://www.codewars.com/users/TheBaronCarlito">
+                <img class="link-img" src="img/logo/codewars.svg" alt="My Codewars Profile">
+                <p class="link-url">Codewars</p>
+              </a>
+              <a class="link" href="https://www.linkedin.com/in/charly-ginevra-195758178/">
+                <img class="link-img" src="img/logo/linkedin.png" alt="My LinkedIn Profile">
+                <p class="link-url">LinkedIn</p>
+              </a>
+              <a class="link" href="mailto:cy.ginevra@gmail.com">
+                <img class="link-img" src="img/logo/gmail.png" alt="Send me an email">
+                <p class="link-url">Gmail</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="scripts/navbar.js"></script>
+  <script src="scripts/custom_list.js "></script>
+</body>
+</html>
